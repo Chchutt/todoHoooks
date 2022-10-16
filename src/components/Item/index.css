@@ -1,0 +1,27 @@
+form{
+    margin: 0;
+}
+.todo-list li .icon-pause,
+.todo-list li .icon-play {
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
+}
+.icon-pause:after {
+    content: '⏸';
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.icon-play:after {
+    content: '▶';
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.timer__time{
+    font-size: 15px;
+    margin-left: 10px;
+}
